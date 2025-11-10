@@ -1,3 +1,4 @@
+
 import React from 'react';
 import type { NavLink, TeamMember, TimelineEvent, Sponsor, ProfileLink } from './types';
 
@@ -54,7 +55,7 @@ export const PROFILE_LINKS: ProfileLink[] = [
 
 export const TEAM_MEMBERS: TeamMember[] = [
   {
-    name: 'Jeya Kumar S',
+    name: 'Jeya Kumar',
     role: 'USERNAME : JK',
     socials: {
         linkedin: 'https://www.linkedin.com/in/jeyakumar-s-255b03333/',
@@ -110,7 +111,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
     },
   },
   {
-    name: 'Sri Rangan S',
+    name: 'Sri Rangan',
     role: 'Username : R3NKU',
     socials: { 
         linkedin: 'https://www.linkedin.com/in/sri-rangan-s-b295b5295', 
