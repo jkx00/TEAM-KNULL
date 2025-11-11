@@ -80,7 +80,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
   },
   {
     name: 'Sirophin',
-    role: 'Username : S1R0x26',
+    role: 'USERNAME : S1R0x26',
     socials: { 
         linkedin: 'https://www.linkedin.com/in/sirophin-t-x-64665a27', 
         tryhackme: 'https://tryhackme.com/p/sirophintx' 
@@ -88,7 +88,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
   },
   {
     name: 'Joshwa',
-    role: 'User Name : J05HW4',
+    role: 'USERNAME : J05HW4',
     socials: { 
         linkedin: 'https://www.linkedin.com/in/joshwa-n-46a615295', 
         tryhackme: 'https://tryhackme.com/p/J05HW4' 
@@ -112,7 +112,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
   },
   {
     name: 'Sri Rangan',
-    role: 'Username : R3NKU',
+    role: 'USERNAME : R3NKU',
     socials: { 
         linkedin: 'https://www.linkedin.com/in/sri-rangan-s-b295b5295', 
         tryhackme: 'https://tryhackme.com/p/r4ng4n' 
