@@ -1,6 +1,7 @@
 
 import React from 'react';
 import type { NavLink, TeamMember, TimelineEvent, Sponsor, ProfileLink } from './types';
+import img1 from "./image/jk.jpeg"
 
 export const NAV_LINKS: NavLink[] = [
   { id: 'home', title: 'Home' },
@@ -55,8 +56,9 @@ export const PROFILE_LINKS: ProfileLink[] = [
 
 export const TEAM_MEMBERS: TeamMember[] = [
   {
-    name: 'Jeya Kumar',
+    name: 'Jeya Kumar S',
     role: 'USERNAME : JK',
+    imageUrl: img1,
     socials: {
         linkedin: 'https://www.linkedin.com/in/jeyakumar-s-255b03333/',
         tryhackme: 'https://tryhackme.com/p/Mr.JK'
@@ -65,6 +67,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
   {
     name: 'Jegan',
     role: 'USERNAME : 4n0nym0u5',
+    imageUrl: '',
     socials: { 
         linkedin: 'https://www.linkedin.com/in/jegannithirajan-j-0b1618293/', 
         tryhackme: 'https://tryhackme.com/p/JeganX19' 
@@ -73,6 +76,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
   {
     name: 'sabari',
     role: 'USERNAME : sabu01',
+    imageUrl: 'https://api.multiavatar.com/sabu01.svg',
     socials: { 
         linkedin: 'https://www.linkedin.com/in/sabareeshwari-selvarajan-75a985294', 
         tryhackme: 'https://tryhackme.com/p/sabarih4x' 
@@ -80,7 +84,8 @@ export const TEAM_MEMBERS: TeamMember[] = [
   },
   {
     name: 'Sirophin',
-    role: 'USERNAME : S1R0x26',
+    role: 'Username : S1R0x26',
+    imageUrl: 'https://api.multiavatar.com/S1R0x26.svg',
     socials: { 
         linkedin: 'https://www.linkedin.com/in/sirophin-t-x-64665a27', 
         tryhackme: 'https://tryhackme.com/p/sirophintx' 
@@ -88,7 +93,8 @@ export const TEAM_MEMBERS: TeamMember[] = [
   },
   {
     name: 'Joshwa',
-    role: 'USERNAME : J05HW4',
+    role: 'User Name : J05HW4',
+    imageUrl: 'https://api.multiavatar.com/J05HW4.svg',
     socials: { 
         linkedin: 'https://www.linkedin.com/in/joshwa-n-46a615295', 
         tryhackme: 'https://tryhackme.com/p/J05HW4' 
@@ -97,6 +103,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
   {
     name: 'Joshua',
     role: 'USERNAME : h3xh7wk',
+    imageUrl: 'https://api.multiavatar.com/h3xh7wk.svg',
     socials: { 
         linkedin: 'https://www.linkedin.com/in/joshua2508/', 
         tryhackme: 'https://tryhackme.com/p/h3xh7wk' 
@@ -105,14 +112,16 @@ export const TEAM_MEMBERS: TeamMember[] = [
   {
     name: 'Siva Prabu',
     role: 'USERNAME : 51v4',
+    imageUrl: 'https://api.multiavatar.com/51v4.svg',
     socials: { 
         linkedin: 'https://www.linkedin.com/in/siva-prabu-ab65712ba/', 
         tryhackme: 'https://tryhackme.com/p/51v4' 
     },
   },
   {
-    name: 'Sri Rangan',
-    role: 'USERNAME : 127.0.0.1',
+    name: 'Sri Rangan S',
+    role: 'Username : R3NKU',
+    imageUrl: 'https://api.multiavatar.com/R3NKU.svg',
     socials: { 
         linkedin: 'https://www.linkedin.com/in/sri-rangan-s-b295b5295', 
         tryhackme: 'https://tryhackme.com/p/r4ng4n' 
@@ -142,32 +151,6 @@ export const TIMELINE_EVENTS: TimelineEvent[] = [
             'Solved 13 out of 14 challenges (92.13% success rate)',
             'Dominated Forensics & OSINT domains',
             'Scored a total of 4567 points'
-        ],
-        type: 'achievement'
-    },
-  {
-    year: '2025',
-    title: 'R00TW4R 2025 CTF',
-    subtitle: 'Community Workshop',
-    organizer: 'PSNA College',
-    description: 'A massive shout-out to everyone who participated, supported, and challenged themselves in R00TW4R 2025 CTF — a two-day hands-on bootcamp covering Networking, Cryptography, and Digital Forensics. Every flag captured and every skill learned reflected the true spirit of cybersecurity.',
-    details: [
-        'Concluded with a live mini-CTF designed by T3AM KNU11',
-        'Empowered aspiring cybersecurity professionals',
-        'Celebrated collaboration, curiosity, and late-night hacking energy',
-        'Set the stage for more challenges, growth, and innovation ahead'
-    ],
-    type: 'workshop'
-  },
-   {
-        year: '2025',
-        title: 'H7TEX CTF',
-        subtitle: '9th Place',
-        organizer: 'SRM Institute of Science and Technology, Chennai',
-        description: 'Secured 9th place in an exciting and challenging cybersecurity competition, tackling problems in web exploitation, cryptography, forensics, and reverse engineering.',
-        details: [
-            'Gained hands-on experience in real-world security challenges',
-            'Focused on Web Exploitation, Boot2Root, Cryptography, and Forensics'
         ],
         type: 'achievement'
     },
