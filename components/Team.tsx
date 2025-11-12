@@ -9,8 +9,13 @@ const Team = forwardRef<HTMLElement>((props, ref) => {
                 <h2 className="text-4xl font-bold text-center mb-12 text-white">Meet The Team</h2>
                 <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-8">
                     {TEAM_MEMBERS.map((member, index) => (
-                        <div key={index} className="text-center group border border-gray-800 rounded-lg p-6 flex flex-col justify-between hover:border-white/50 transition-colors duration-300 h-full">
-                            <div>
+                        <div key={index} className="text-center group border border-gray-800 rounded-lg p-6 flex flex-col items-center hover:border-white/50 transition-colors duration-300 h-full">
+                            <div className="flex-grow flex flex-col items-center">
+                                <img
+                                    src={member.imageUrl}
+                                    alt={`${member.name}'s profile`}
+                                    className="w-24 h-24 rounded-full mb-4 border-2 border-gray-700 bg-gray-800 group-hover:border-white transition-all duration-300 transform group-hover:scale-105"
+                                />
                                 <h3 className="text-xl font-bold text-white">{member.name}</h3>
                                 <p className="text-gray-400 mt-1">{member.role}</p>
                             </div>
