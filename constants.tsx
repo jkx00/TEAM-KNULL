@@ -64,8 +64,8 @@ export const PROFILE_LINKS: ProfileLink[] = [
 
 export const TEAM_MEMBERS: TeamMember[] = [
   {
-    name: 'Jeya Kumar S',
-    role: 'USERNAME : JK',
+    name: 'Jeya Kumar',
+    role: 'JK',
     imageUrl: img1,
     socials: {
         linkedin: 'https://www.linkedin.com/in/jeyakumar-s-255b03333/',
@@ -74,7 +74,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
   },
   {
     name: 'Jegan',
-    role: 'USERNAME : 4n0nym0u5',
+    role: '4n0nym0u5',
     imageUrl: img2,
     socials: { 
         linkedin: 'https://www.linkedin.com/in/jegannithirajan-j-0b1618293/', 
@@ -83,7 +83,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
   },
   {
     name: 'sabari',
-    role: 'USERNAME : sabu01',
+    role: 'sabu01',
     imageUrl: img3,
     socials: { 
         linkedin: 'https://www.linkedin.com/in/sabareeshwari-selvarajan-75a985294', 
@@ -92,7 +92,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
   },
   {
     name: 'Sirophin',
-    role: 'Username : S1R0x26',
+    role: 'S1R0x26',
     imageUrl: img4,
     socials: { 
         linkedin: 'https://www.linkedin.com/in/sirophin-t-x-64665a27', 
@@ -101,7 +101,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
   },
   {
     name: 'Joshwa',
-    role: 'User Name : J05HW4',
+    role: 'J05HW4',
     imageUrl: img5,
     socials: { 
         linkedin: 'https://www.linkedin.com/in/joshwa-n-46a615295', 
@@ -110,7 +110,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
   },
   {
     name: 'Joshua',
-    role: 'USERNAME : h3xh7wk',
+    role: 'h3xh7wk',
     imageUrl: img6,
     socials: { 
         linkedin: 'https://www.linkedin.com/in/joshua2508/', 
@@ -119,7 +119,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
   },
   {
     name: 'Siva Prabu',
-    role: 'USERNAME : 51v4',
+    role: '5iv4',
     imageUrl: img7,
     socials: { 
         linkedin: 'https://www.linkedin.com/in/siva-prabu-ab65712ba/', 
@@ -127,8 +127,8 @@ export const TEAM_MEMBERS: TeamMember[] = [
     },
   },
   {
-    name: 'Sri Rangan S',
-    role: 'Username : R3NKU',
+    name: 'Sri Rangan',
+    role: '127.0.0.1',
     imageUrl: img8,
     socials: { 
         linkedin: 'https://www.linkedin.com/in/sri-rangan-s-b295b5295', 
