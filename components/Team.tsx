@@ -9,24 +9,34 @@ const Team = forwardRef<HTMLElement>((props, ref) => {
                 <h2 className="text-4xl font-bold text-center mb-12 text-white">Meet The Team</h2>
                 <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-8">
                     {TEAM_MEMBERS.map((member, index) => (
-                        <div key={index} className="text-center group border border-gray-800 rounded-lg p-6 flex flex-col items-center hover:border-white/50 transition-colors duration-300 h-full">
+                        <div
+                            key={index}
+                            className="text-center group border border-gray-800 rounded-lg p-6 flex flex-col items-center hover:border-white/50 transition-colors duration-300 h-full"
+                        >
                             <div className="flex-grow flex flex-col items-center">
-                                <img
-                                    src={member.imageUrl}
-                                    alt={`${member.name}'s profile`}
-                                    className="w-24 h-24 rounded-full mb-4 border-2 border-gray-700 bg-gray-800 group-hover:border-white transition-all duration-300 transform group-hover:scale-105"
-                                />
+                                {/* Removed image section */}
                                 <h3 className="text-xl font-bold text-white">{member.name}</h3>
                                 <p className="text-gray-400 mt-1">{member.role}</p>
                             </div>
+
                             <div className="flex justify-center space-x-4 mt-4">
                                 {member.socials.linkedin && (
-                                    <a href={member.socials.linkedin} target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-white transition-colors duration-300">
+                                    <a
+                                        href={member.socials.linkedin}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="text-gray-500 hover:text-white transition-colors duration-300"
+                                    >
                                         <ICONS.LinkedIn className="w-6 h-6" />
                                     </a>
                                 )}
                                 {member.socials.tryhackme && (
-                                    <a href={member.socials.tryhackme} target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-white transition-colors duration-300">
+                                    <a
+                                        href={member.socials.tryhackme}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="text-gray-500 hover:text-white transition-colors duration-300"
+                                    >
                                         <ICONS.TryHackMe className="w-6 h-6" />
                                     </a>
                                 )}
