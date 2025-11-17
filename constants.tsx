@@ -65,7 +65,7 @@ export const PROFILE_LINKS: ProfileLink[] = [
 export const TEAM_MEMBERS: TeamMember[] = [
   {
     name: 'Jeya Kumar',
-    role: 'JK',
+    role: 'JK$',
     imageUrl: img1,
     socials: {
         linkedin: 'https://www.linkedin.com/in/jeyakumar-s-255b03333/',
