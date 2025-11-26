@@ -196,6 +196,19 @@ export const TIMELINE_EVENTS: TimelineEvent[] = [
         ],
         type: 'hosted'
     },
+  {
+    year: '2025',
+    title: 'sknbCTF 2025',
+    subtitle: '8th Place (Worldwide)',
+    organizer: 'sknb (implied)',
+    description: 'Team T3AM KNU11 achieved 8th place worldwide in the sknbCTF 2025, a global Capture The Flag competition.',
+    details: [
+        'Secured 8th place with 3985 points among a large field of international teams (Top 8 Worldwide is noted in the social post).',
+        'Showcased strong performance in Web exploitation, Cryptography, and Miscellaneous (Misc) challenges.',
+        'Solved challenges including "First Blood", "Cipher" (Cryptography), and multiple Web and Misc challenges.'
+    ],
+    type: 'achievement'
+  },
     {
         year: '2025',
         title: 'HackQuest 2K25',
@@ -208,6 +221,19 @@ export const TIMELINE_EVENTS: TimelineEvent[] = [
         ],
         type: 'achievement'
     },
+  {
+    year: '2025',
+    title: 'H7CTF 2025 Finals',
+    subtitle: '6th & 9th Place (International Finals)',
+    organizer: 'Not explicitly named, but implied to be a major international CTF organizer.',
+    description: 'Two teams of members secured top-10 placements in the highly competitive international H7CTF 2025 Finals, competing against top global teams.',
+    details: [
+        'Team Mr. Robot secured 6th place with 30,000 points.',
+        'Team T3AM KNU11 secured 9th place with 29,380 points.',
+        'Showcased strong skills in Cryptography, Web Exploitation, AI/ML, Cloud, OSINT, and B2R (Binary Reverse-engineering/Reversing).'
+    ],
+    type: 'achievement'
+  },
     {
         year: '2025',
         title: 'OWASP Club Bootcamp',
