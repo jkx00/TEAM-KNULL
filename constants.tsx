@@ -203,6 +203,34 @@ export const TIMELINE_EVENTS: TimelineEvent[] = [
         ],
         type: 'achievement'
     },
+  {  
+  year: '2026',
+  title: 'AMOR.MORTIS CTF',
+  subtitle: '🥉 3rd Place',
+  organizer: 'Cybercom',
+  description: 'T3AM KNU11 secured 3rd place in the Valentine’s-themed AMOR.MORTIS CTF, showcasing strong teamwork and problem-solving skills.',
+  details: [
+    'Participated during Feb 14–15 weekend',
+    'Focused on hands-on cybersecurity challenges',
+    'Demonstrated active engagement and competitive learning',
+    'Strengthened real-world CTF skills as a team'
+  ],
+  type: 'achievement'
+},
+  {  
+  year: '2026',
+  title: 'HackQuest 2K26 National Level CTF',
+  subtitle: '🏅 5th Place',
+  organizer: 'Jamal Mohamed College & CyberHeals Infotech Pvt. Ltd.',
+  description: 'TEAM KNULL CTF secured 5th rank in HackQuest 2K26, a national-level CTF hackathon, competing against top प्रतिभents across the country.',
+  details: [
+    'National-level cybersecurity competition',
+    'Organized by Department of Computer Science & IT',
+    'Showcased strong problem-solving and teamwork',
+    'Competed against top CTF teams nationwide'
+  ],
+  type: 'achievement'
+},
     {
         year: '2025',
         title: 'Hacker’s Gambit 2025',
