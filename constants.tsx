@@ -150,6 +150,14 @@ export const TEAM_MEMBERS: TeamMember[] = [
     github: 'https://share.google/egP9SAlQx42peICxm' 
   },
 },
+  {
+  name: 'Nathiya Nambu S',
+  role: 'B14CK',
+  socials: { 
+    linkedin: 'https://www.linkedin.com/in/nathiya-nambu-s-31938a328', 
+    tryhackme: 'https://tryhackme.com/p/N4MBU' 
+  },
+},
   
 ];
 
